@@ -1,0 +1,73 @@
+body {
+    background-color: rgb(230, 245, 184);
+}
+
+#box {
+    border-radius: 30px;
+    border: 3px solid black;
+    background: url(../img2.webp);
+    margin: 60px 200px;
+    padding: 8px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+#img {
+    margin: 6px 20px;
+}
+
+#box .container {
+    border-radius: 20px;
+    border: 2px solid black;
+    text-align: center;
+    width: 80%;
+    height: 15%;
+    background-color: rgb(47, 168, 255);
+    margin: 20px 120px;
+    padding: 0px;
+
+}
+
+.final {
+    border: 1px solid;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 190px;
+    background-color: yellowgreen;
+    height: 10%;
+}
+
+input {
+    border-radius: 5px;
+}
+
+#box .input-temp {
+    text-align: center;
+    justify-content: center;
+    margin: 60px 180px;
+    width: 50%;
+}
+
+.btn {
+    background-color: dodgerblue;
+    border-radius: 10px;
+    margin: 30px 250px;
+    padding: 6px 20px;
+    border: 2px solid white;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.result {
+    
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 80px;
+    background-color: #84ddea;
+    padding: 50px;;
+    font-size: 4rem;
+    color: #111;
+    
+  }

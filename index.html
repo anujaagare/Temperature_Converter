@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TempConverter</title>
+</head>
+
+<body>
+  <section id="box">
+    <img id="img" src="img1.jpg">
+    <div id="convert">
+      <div class="container">
+        <h1>Temperature Converter</h1>
+      </div>
+
+      <div class="input-temp">
+        <form class="form">
+          <input class="inputtemp" type="number" placeholder="Enter Temperature" required />
+          <select class="choose">
+            <option>°C</option>
+            <option>°F</option>
+            <option>°K</option>
+          </select>
+        </form>
+      </div>
+      <div class="final">
+        <h5>Convert To</h5>
+        <select class="choosen">
+          <option>Celsius °C</option>
+          <option>Fahrenheit °F</option>
+          <option>Kelvin °K</option>
+        </select>
+      </div>
+      <button class="btn">Convert</button>
+      <div class="result">
+        <span></span>
+      </div>
+    </div>
+  </section>
+
+</body>
+<script src="index.js"></script>
+
+</html>
